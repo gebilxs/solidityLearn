@@ -13,5 +13,7 @@ contract Helloworld{
     function getName()  public view returns (string memory){
         return Myname;
     }
-    
+    function changeName(string memory _numName) public {
+        Myname = _numName;
+    }
 }
